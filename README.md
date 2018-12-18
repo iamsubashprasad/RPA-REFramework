@@ -1,5 +1,5 @@
 # RPA-REFramework
-In this exercise, I have created a UiPath automation that performs the steps below.
+In this Framework, I have created a UiPath automation that performs the steps below.
 To achieve this, I have use the REFrameWork as the starting template and follow the UiPath development best practices.
 
 Here are the steps performed by the Robot:
