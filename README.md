@@ -1,4 +1,4 @@
-# RPA-REFramework      n4aO9UZhciP11XHEjbVuvRPV
+# RPA-REFramework
 In this Framework, I have created a UiPath automation that performs the steps below.
 To achieve this, I have use the REFrameWork as the starting template and follow the UiPath development best practices.
 
