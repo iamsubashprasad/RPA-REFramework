@@ -1,25 +1,24 @@
-# RPA-REFramework
-https://drive.google.com/file/d/1UX0y_xCN-oVAz9njI84wtE7DhJyxNjQz/view?usp=sharing
-Connct Enterprise : https://connect-enterprise.uipath.com/pro-v229
-In this Framework, I have created a UiPath automation that performs the steps below.
-To achieve this, I have use the REFrameWork as the starting template and follow the UiPath development best practices.
+<h1 align="center">Hi 👋, I'm Subash Prasad</h1>
+<h3 align="center">A passionate RPA & AWS developer from India</h3>
 
-Here are the steps performed by the Robot:
-1. Log in to https://www.acme-test.com.
-2. On the landing page, Dashboard, click on the Work items menu item. Scrape the data in all the pages of the table, page by page, ensuring error handling and recovery.
-3. For each page:
-- Filter the records where Status is 'Open';
-- Filter the records where Type is 'WI1'; n4aO9UZhciP11XHEjbVuvRPV
-- Filter the records where WIID is greater than 200000;
-- Append the resulting datatable into an Excel worksheet, you shouldn't worry about the headers and format of the output file.
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=subashmav&label=Profile%20views&color=0e75b6&style=flat" alt="subashmav" /> </p>
 
-Constraints to follow in the development, using the REFrameWork:
-1.TransactionItem datatype should be a String. The process should recover and retry in case of errors in navigation between WorkItems page. One transaction is the action of scraping one web page.By navigating to the next page, the next transaction will execute. (Same as ACME Process 4 Dispatcher from the UiPath Academy). 
-2. Create a separate workflow file for the Login to ACME. File input arguments: URL ; Username ; Password .
-3. Create a separate workflow file for closing ACME. 
-3. Add the ACME_URL and ACME_Credential to the Config file.
-4. Populate InitAllApplications.xaml from the Framework folder with Invoking the Login to ACME and navigation to the Work Items.
-5. Populate CloseAllApplications.xaml from the Framework folder with Invoking the Close ACME.
-6. Populate KillAllProcesses.xaml from the Framework folder with killing the process used.
-7. Populate the Process.xaml file with the following actions: Web scraping, Filtering and Appending to Excel.
+- 🌱 I’m currently learning **AWS Machine Learning & RPA**
 
+- 👨‍💻 All of my projects are available at [https://github.com/subashmav/RPA-REFramework/tree/master/Project](https://github.com/subashmav/RPA-REFramework/tree/master/Project)
+
+- 💬 Ask me about **RPA,AWS,**
+
+- 📫 How to reach me **iamsubashprasad@gmail.com**
+
+- 📄 Know about my experiences [http://iamsubashprasad.com/](http://iamsubashprasad.com/)
+
+- ⚡ Fun fact **I think i am funny**
+
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://aws.amazon.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=subashmav&show_icons=true&locale=en&layout=compact" alt="subashmav" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=subashmav&show_icons=true&locale=en" alt="subashmav" /></p>
